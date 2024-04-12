@@ -11,6 +11,10 @@ body {
     background-color: #fff9ea;
 }
 
+section {
+    padding: 28px 8%;
+}
+
 /*Caso tenha diversos tipos de botão é aconselhavel criar um .css apenas para tipos de botão*/
 .btn-default {
     border: none;
