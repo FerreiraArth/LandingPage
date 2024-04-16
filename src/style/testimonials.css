@@ -47,7 +47,7 @@
   justify-content: space-between;
 }
 .feedback-content p span {
-  color: var(--color-primary-4);
+  color: var(--color-primary-6);
 }
 
 @media screen and (max-width: 1170px) {

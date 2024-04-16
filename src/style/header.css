@@ -16,7 +16,7 @@ header {
 
 #nav-logo {
   font-size: 24px;
-  color: var(--color-primary-4);
+  color: var(var(--color-primary-6));
 }
 
 #nav-list {
@@ -32,7 +32,7 @@ header {
 }
 .nav-item.active a {
   color: #1d1d1d;
-  border-bottom: 3px solid var(--color-primary-3);
+  border-bottom: 3px solid var(--color-primary-4);
 }
 
 #mobile-btn {
