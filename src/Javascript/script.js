@@ -33,4 +33,46 @@ $(document).ready(function() {
         navItems.removeClass('active');
         $(navItems[activeSectionIndex]).addClass('active')
     })
+
+    ScrollReveal().reveal('#cta', {
+        origin: 'left',
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('.dish', {
+        origin: 'left',
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('#testimonials-chef', {
+        origin: 'left',
+        duration: 1000,
+        distance: '20%'
+    })
+
+    ScrollReveal().reveal('.feedback', {
+        origin: 'right',
+        duration: 1000,
+        distance: '20%'
+    })
+
+    ScrollReveal().reveal('footer', {
+        origin: 'bottom',
+        duration: 2000,
+        distance: '20%'
+    })
+
+    ScrollReveal().reveal('#banner', {
+        origin: 'right',
+        duration: 1000,
+        distance: '20%'
+    })
+
+    ScrollReveal().reveal('.shape', {
+        origin: 'top',
+        duration: 1000,
+        distance: '20%'
+    })
 });
