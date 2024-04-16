@@ -31,6 +31,6 @@ $(document).ready(function() {
         })
 
         navItems.removeClass('active');
-        $(navItems[activeSectionIndex].addClass('active'))
+        $(navItems[activeSectionIndex]).addClass('active')
     })
 });
