@@ -16,7 +16,7 @@
   color: #1d1d1d;
 }
 #cta .title span {
-  color: #e9a209;
+  color: var(--color-primary-4);
 }
 #cta .description {
   font-size: 1.2rem;

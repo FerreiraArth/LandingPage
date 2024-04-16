@@ -28,7 +28,7 @@
 }
 .dish-heart {
   position: absolute;
-  background-color: #e9a209;
+  background-color: var(--color-primary-4);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,7 +45,7 @@
   text-align: center;
 }
 .dish-rate i {
-  color: #e9a209;
+  color: var(--color-primary-4);
 }
 .dish-price {
   display: flex;
