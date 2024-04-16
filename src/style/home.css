@@ -13,7 +13,7 @@
 }
 #cta .title {
   font-size: 4rem;
-  color: #1d1d1d;
+  color: var(--color-neutro-1);
 }
 #cta .title span {
   color: var(--color-primary-6);
@@ -28,14 +28,14 @@
 }
 #cta-buttons a {
   text-decoration: none;
-  color: #1d1d1d;
+  color: var(--color-neutro-1);
 }
 
 #phone-button {
   display: flex;
   gap: 8px;
   align-items: center;
-  background-color: #ffffff;
+  background-color: var(--color-neutro-0);
   font-weight: 500;
   padding: 8px 14px;
   box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);

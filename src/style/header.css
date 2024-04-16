@@ -31,7 +31,7 @@ header {
   font-weight: 600;
 }
 .nav-item.active a {
-  color: #1d1d1d;
+  color: var(--color-neutro-1);
   border-bottom: 3px solid var(--color-primary-4);
 }
 

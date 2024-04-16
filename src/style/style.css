@@ -12,6 +12,9 @@
   --color-primary-4: #ffe100;
   --color-primary-5: #ffcb45;
   --color-primary-6: #e9a209;
+
+  --color-neutro-0: #fff;
+  --color-neutro-1: #1d1d1d;
 }
 
 * {
@@ -58,11 +61,11 @@ section {
   justify-content: center;
   width: 45px;
   height: 40px;
-  background-color: #fff;
+  background-color: var(--color-neutro-0);
   font-size: 1.25rem;
   border-radius: 10px;
   text-decoration: none;
-  color: #1d1d1d;
+  color: var(--color-neutro-1);
   box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3 ease;
 }

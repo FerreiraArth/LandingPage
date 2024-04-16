@@ -21,7 +21,7 @@
   gap: 18px;
   width: 25%;
   padding: 28px;
-  background-color: #ffffff;
+  background-color: var(--color-neutro-0);
   box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden; /*esconde o que esta vazando*/
