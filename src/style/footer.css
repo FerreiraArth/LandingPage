@@ -1,22 +1,22 @@
 footer {
-    background-color: #ffe8b4;
+  background-color: var(--color-primary-2);
 }
 
 #footer-items {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 8% 24px 8%;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8% 24px 8%;
+  align-items: center;
 }
 
-#copyright{
-    color: #1d1d1d;
-    font-weight: 500;
+#copyright {
+  color: #1d1d1d;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 600px) {
-    #footer-items {
-        flex-direction: column;
-        gap: 20px;
-    }
+  #footer-items {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
