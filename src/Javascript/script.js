@@ -75,4 +75,10 @@ $(document).ready(function() {
         duration: 1000,
         distance: '20%'
     })
+
+    ScrollReveal().reveal('#more-dishes', {
+        origin: 'left',
+        duration: 2000,
+        distance: '20%'
+    })
 });

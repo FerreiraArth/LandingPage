@@ -53,6 +53,14 @@
   gap: 20px;
 }
 
+#more-dishes {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+#more-dishes a {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1170px) {
   #dishes {
     flex-wrap: wrap;
